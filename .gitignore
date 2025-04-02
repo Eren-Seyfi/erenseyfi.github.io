@@ -1,0 +1,11 @@
+*.log                 # log dosyaları (gereksiz, ignore etmek mantıklı)
+*.tgz                 # npm pack çıktısı (genellikle .npmignore yerine buradan ignore edilir)
+.DS_Store             # macOS sistem dosyası
+.idea                 # JetBrains IDE klasörü (WebStorm, PhpStorm vs.)
+.vscode               # VS Code ayarları
+node_modules          # kesinlikle ignore edilmeli
+dist                  # build çıktısı (genellikle repo'ya eklenmez)
+cache
+temp
+.vite_opt_cache       # Vite önbellek klasörü (ignore edilmesi doğru)
+pnpm-global           # global pnpm klasörü (kişisel kurulum, ignore edilir)
